@@ -48,7 +48,7 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 b,
 strong {
@@ -203,7 +203,7 @@ th {
 a {
   color: var(--blue);
   -webkit-text-decoration-color: var(--yellow);
-          text-decoration-color: var(--yellow);
+  text-decoration-color: var(--yellow);
 }
 
 a.button,
@@ -257,4 +257,17 @@ h6 {
 .wrapper h5,
 .wrapper h6 {
   color: var(--black);
-  text-shadow: none;}
+  text-shadow: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+button {
+  width: 60%;
+  border-radius: 20px;
+  height: 100px;
+}
